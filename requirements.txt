@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain_community
+langchain_google_genai
+faiss-cpu
+scikit-learn
+numpy
+python-dotenv
+docx2txt
+pypdf
