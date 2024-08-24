@@ -28,13 +28,14 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 st.markdown(
     """
     <h1 style="text-align: center;"> DocQuery </h1>
+    <p style='text-align: center;'>Upload, Ask, Answer: Your Documents, Your Questions.</p>
     """,
     unsafe_allow_html=True,
 )
 # st.title("DocQuery")
 
 # Upload file
-uploaded_file = st.file_uploader("Upload a file", type=["pdf", "docx", "txt"], accept_multiple_files=True)
+uploaded_file = st.file_uploader("", type=["pdf", "docx", "txt"], accept_multiple_files=True)
 
 if uploaded_file:
     documents = []
