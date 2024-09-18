@@ -8,3 +8,6 @@ numpy
 python-dotenv
 docx2txt
 pypdf
+unstructured
+networkx
+openpyxl
